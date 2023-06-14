@@ -187,14 +187,14 @@ public class TestArdoise {
 		
 		// Liste de situations pouvant provoquer des erreurs
 		
-			Forme f = new Chapeau("ex", Tour); // Tour est un quadrilatère et pas un chapeau
-			
-			((Chapeau)Oiseau1).getPoint(42); // Indice trop grand
-			
-			((Quadrilatère)Tour).setPoint(8, 20, 20); // Indice trop grand
-		
-			Forme TestMaison = new Maison("TestMaison",  ToitMaison, CorpsMaison, PorteMaison);
-			((Maison)TestMaison).setForme(2, Branche1); // L'indice 2 de la maison doit être un quadrilatère
+//			Forme f = new Chapeau("ex", Tour); // Tour est un quadrilatère et pas un chapeau
+//			
+//			((Chapeau)Oiseau1).getPoint(42); // Indice trop grand
+//			
+//			((Quadrilatère)Tour).setPoint(8, 20, 20); // Indice trop grand
+//		
+//			Forme TestMaison = new Maison("TestMaison",  ToitMaison, CorpsMaison, PorteMaison);
+//			((Maison)TestMaison).setForme(2, Branche1); // L'indice 2 de la maison doit être un quadrilatère
 		
 		// Tests de méthodes:
 		
